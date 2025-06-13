@@ -1,4 +1,3 @@
-# cyber-intern-phase-3
 # Cybersecurity Internship – Phase 3: Advanced Threat Hunting & APT Simulation
 
 ## 📌Overview
