@@ -37,7 +37,14 @@ Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Na
 - Points to dropped .ps1 script
 ![](https://github.com/alj-v/cyber-intern-phase-3/blob/main/screenshots/hint03_persistence_autoruns_log.png)
 
-Interview Note  
+### # Cleanup
+To remove persistence:
+```powershell
+Remove-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "StartUpBait"
+Remove-Item C:\Users\Public\doorbell.ps1
+```
+
+### Interview Note  
 Q: How do attackers use Registry Run Keys for persistence?  
 A: They drop a payload (EXE/PS1) and register it in HKCU:\Software\Microsoft\Windows\CurrentVersion\Run or HKLM equivalent, causing it to run at every user login.  
 
