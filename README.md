@@ -11,8 +11,8 @@ This phase focuses on simulating Advanced Persistent Threat (APT) techniques and
 |Status|No.|Task|Description|
 |------|---|----|-----------|
 |✅|1.|**Fileless Malware via PowerShell**|Simulates a spear-phishing attack using in-memory PowerShell payloads.|
-||2.|**Lateral Movement via RDP Brute Force**|Emulates attackers using stolen credentials to move across the network.|
-||3.|**Persistence via Registry Run Keys**|Establishes stealthy persistence using Windows registry.|
+|✅|2.|**Lateral Movement via RDP Brute Force**|Emulates attackers using stolen credentials to move across the network.|
+|✅|3.|**Persistence via Registry Run Keys**|Establishes stealthy persistence using Windows registry.|
 ||4.|**DNS Tunneling for Data Exfiltration**|Simulates data exfiltration over DNS requests.|
 ||5.|**Credential Dumping with Mimikatz**|Demonstrates how attackers extract sensitive credentials from memory.|
 
