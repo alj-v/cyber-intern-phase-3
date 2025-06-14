@@ -44,7 +44,8 @@ ipconfig /all
 ## Detection
 - Windows Event Viewer
  - Event ID 4625: Failed login
-  - and account lockout 
+   - for the first 10 attempts the failiure reason was bad password.
+   - after 10th brute force attempt, the failiure reason was account lockout!
  - Event ID 4624: Successful login
  - Logon Type: 10 = RDP
  - Multiple failures logged from Kali IP = Brute force attack simulation
