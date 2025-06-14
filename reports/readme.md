@@ -1,4 +1,4 @@
-# 📌 Internship Report: Phase 3 - Advanced Threat Hunting & APT Simulation
+# Internship Report: Phase 3 - Advanced Threat Hunting & APT Simulation
 
 **Intern:** Aleena Joy  
 **Mentor:** Rajendra Bodda
@@ -22,6 +22,11 @@ This phase focused on simulating real-world advanced persistent threat (APT) tec
 - Powershell
 - Autoruns
 - ngrok
+- xfreerdp
+- dnscat2
+- nslookup
+- ping
+- mimikatz
 - wazuh
 
 ---
@@ -51,7 +56,7 @@ This phase focused on simulating real-world advanced persistent threat (APT) tec
 
 ### 4️⃣ **DNS Tunneling - Data Exfiltration**
 - Simulated DNS exfiltration using base64-encoded queries.
-- Tools used: `dnscat2`, `iodine`, manual `nslookup`, `ping`.
+- Tools used: `dnscat2`, manual `nslookup`, `ping`.
 - Wireshark used to capture DNS traffic patterns.
 - Observed **Sysmon Event ID 22** for DNS queries (when logged).
 - Discussion on how attackers evade detection using DNS.
@@ -74,7 +79,17 @@ This phase focused on simulating real-world advanced persistent threat (APT) tec
 
 ---
 
-## 🏁 Status
+## Learning Outcomes
+
+- Gained hands-on exposure to real-world APT simulation techniques.
+- Understood detection strategies using endpoint telemetry and SIEMs.
+- Strengthened log correlation and threat hunting skills.
+- Learned about stealthy exfiltration methods and detection gaps in DNS/HTTPS.
+- Developed portfolio-ready incident response documentation.
+
+---
+
+## Status
 
 > ✅ **Phase 3 Successfully Completed**
 
